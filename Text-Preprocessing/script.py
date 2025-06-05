@@ -34,4 +34,3 @@ result = [preprocess_text(report) for report in sample_reports]
 
 for i, tokens in enumerate(result, start=1):
     print(f"Report {i}: {' '.join(tokens)}\n")
-
