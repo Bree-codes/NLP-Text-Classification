@@ -6,6 +6,7 @@ from nltk.tokenize import word_tokenize
 
 # Ensure downloads are handled
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 text = "She is learning Natural Language Processing and it is fun"
