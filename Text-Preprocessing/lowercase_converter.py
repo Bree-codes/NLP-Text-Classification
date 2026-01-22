@@ -8,4 +8,3 @@ input_txt = "Hello there, my name is BRENDA"
 output = lowercase_converter(input_txt)
 
 print(output)
-
